@@ -1,6 +1,6 @@
 
 task :build do
-  `ruby ./ext/extconf.rb && make`
+  `cd ext && ruby ./extconf.rb && make`
 end
 
 task :test do
